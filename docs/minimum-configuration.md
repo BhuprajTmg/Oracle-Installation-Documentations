@@ -1,6 +1,6 @@
 # Minimum Configuration (Per Instance)
 
-> Note: It is not recommended to install multiple instances in non‑clustered production servers without sufficient resources.
+> It is not recommended to install multiple instances in non‑clustered production servers without sufficient resources.
 
 ## Hardware Requirements
 - 4 CPU cores  
@@ -15,14 +15,17 @@
 - **U:** 250GB+ — TempDB log file  
 - **S:** 100GB+ — System databases  
 
-Additional drives may be required for high growth or IOPS workloads.
+Additional drives may be required for:
+- High growth workloads  
+- High IOPS requirements  
+- Complex file structures  
 
 ## AWS EBS Recommendation
-- Volume Type: gp3  
-- Throughput: 125  
-- IOPS: 3000  
+- Volume Type: **gp3**  
+- Throughput: **125**  
+- IOPS: **3000**  
 
 ## Renaming Drives
-1. Open Disk Management → Change Drive Letter  
-2. Open CMD as Administrator  
+1. Open **Disk Management** → Change Drive Letter  
+2. Open **CMD as Administrator**  
 3. Example:

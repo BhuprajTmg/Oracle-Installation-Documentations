@@ -1,10 +1,19 @@
 # Installation Pre‑Requisites
 
+## Required Software
 - SQL installation binaries  
-- Latest approved Service Pack, Cumulative Update, and Security Update  
-- Separate network service accounts for:
-  - SQL DB Engine  
-  - SQL Server Agent  
-  - SSAS / SSIS / SSRS  
+- Latest approved:
+  - Service Pack  
+  - Cumulative Update  
+  - Security Update  
 
-Windows Server must be installed and configured to corporate standards with Admin and RDP rights granted to the DBA team.
+## Service Accounts
+Separate network service accounts are required for:
+- SQL Database Engine  
+- SQL Server Agent  
+- SSAS / SSIS / SSRS (recommended for security isolation)
+
+## Windows Server Requirements
+Windows Server must be:
+- Installed and configured to corporate standards  
+- Admin and RDP rights granted to the DBA team  
